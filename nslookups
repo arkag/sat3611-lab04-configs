@@ -1,0 +1,58 @@
+#!/bin/bash
+base_name="oriath.io"
+
+# set the subdomains
+subdomain_name="s"
+subdomain2_name="c"
+
+# set the server names
+server_names="tarkleigh maramoa"
+
+# set the CNAMES
+cnames="dhcp dhcp2 dns dns2 file file2 www www2 mail mail2"
+
+# set the client names
+client_names="yeena vagan"
+
+# set the public names
+public_names="www dns mail"
+
+# set the IP addresses
+ip_addresses="10.0.10.1 10.0.10.2 10.0.10.3 10.0.10.4"
+
+# set external names
+ext_names="www.google.com www.mtu.edu"
+
+#
+# do the magic
+#
+
+# servers
+for i in $server_names; do
+	nslookup $i.$subdomain_name.$base_name
+done
+
+# cnames
+for i in $cnames; do
+        nslookup $i.$subdomain_name.$base_name
+done
+
+# clients
+for i in $client_names; do
+        nslookup $i.$subdomain2_name.$base_name
+done
+
+# public
+for i in $public_names; do
+        nslookup $i.$base_name
+done
+
+# ip addresses
+for i in $ip_addresses; do
+	nslookup $i
+done
+
+# external hosts
+for i in $ext_names; do
+	nslookup $i
+done

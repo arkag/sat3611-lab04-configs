@@ -1,0 +1,117 @@
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+tarkleigh.s.oriath.io	canonical name = ns1.s.oriath.io.
+Name:	ns1.s.oriath.io
+Address: 10.0.10.1
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find maramoa.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find dhcp.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find dhcp2.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find dns.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find dns2.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find file.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find file2.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find www.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find www2.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find mail.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+** server can't find mail2.s.oriath.io: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Name:	yeena.c.oriath.io
+Address: 10.0.10.3
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Name:	vagan.c.oriath.io
+Address: 10.0.10.4
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Name:	www.oriath.io
+Address: 10.0.10.1
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+dns.oriath.io	canonical name = ns1.oriath.io.
+Name:	ns1.oriath.io
+Address: 10.0.10.1
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Name:	mail.oriath.io
+Address: 10.0.10.1
+
+** server can't find 1.10.0.10.in-addr.arpa: NXDOMAIN
+
+** server can't find 2.10.0.10.in-addr.arpa: NXDOMAIN
+
+** server can't find 3.10.0.10.in-addr.arpa: NXDOMAIN
+
+** server can't find 4.10.0.10.in-addr.arpa: NXDOMAIN
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Non-authoritative answer:
+Name:	www.google.com
+Address: 172.217.9.68
+Name:	www.google.com
+Address: 2607:f8b0:4009:816::2004
+
+Server:		10.0.10.1
+Address:	10.0.10.1#53
+
+Non-authoritative answer:
+Name:	www.mtu.edu
+Address: 141.219.70.106
+
