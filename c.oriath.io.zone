@@ -8,8 +8,12 @@ c.oriath.io.	IN SOA	ns1.c.oriath.io. root.oriath.io. (
 			)
 
 		NS	ns1.c.oriath.io.
+		NS	ns2.c.oriath.io.
+
 
 ns1		A	10.0.10.1
+ns2		A	10.0.10.2
 
 yeena		A	10.0.10.3
+vagan		A	10.0.10.4
 

@@ -8,14 +8,19 @@ $TTL 600;
 			86400	)	
 
 		NS	ns1.oriath.io.
+		NS	ns2.oriath.io.
 
 ns1	IN	A	10.0.10.1
-
+ns2	IN	A	10.0.10.2
 dns	IN	CNAME	ns1
-
+dns2	IN 	CNAME	ns2
 @	IN	MX	10		mail
+@	IN	MX	10		mail2
 mail	IN	A	10.0.10.1
+mail2	IN	A	10.0.10.2
 www	IN	A	10.0.10.1
-
+www2	IN	A	10.0.10.2
+file	IN	A	10.0.10.1
+file2	IN	A	10.0.10.2
 w3 	IN	CNAME	www
 	

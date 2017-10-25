@@ -8,8 +8,7 @@ $TTL 600
 			)
 
 		NS	ns1.c.oriath.io.
+		NS	ns2.c.oriath.io.
 
 $ORIGIN	10.0.10.in-addr.arpa.
-100 PTR tarkleigh.s.oriath.io.
-100 PTR	yeena.c.oriath.io.
 
