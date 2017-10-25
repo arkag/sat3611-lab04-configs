@@ -1,0 +1,15 @@
+$TTL 600
+s.oriath.io.	IN 	SOA	ns1.s.oriath.io. root.oriath.io.(
+			12345	;
+			28800	;
+			3600	;
+			604800	;
+			38400	;
+			)
+
+		NS	ns1.s.oriath.io.
+
+
+ns1		A	10.0.10.1
+
+tarkleigh	CNAME	ns1

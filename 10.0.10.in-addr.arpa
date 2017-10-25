@@ -1,0 +1,15 @@
+$TTL 600
+10.0.10.in-addr.arpa.	IN  SOA	ns1.c.oriath.io. root.oriath.io. (
+			12345	;
+			28800	;
+			3600	;
+			604800	;
+			38400	;
+			)
+
+		NS	ns1.c.oriath.io.
+
+$ORIGIN	10.0.10.in-addr.arpa.
+100 PTR tarkleigh.s.oriath.io.
+100 PTR	yeena.c.oriath.io.
+

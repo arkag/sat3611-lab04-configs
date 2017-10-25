@@ -1,0 +1,15 @@
+$TTL 600
+c.oriath.io.	IN SOA	ns1.c.oriath.io. root.oriath.io. (
+			12345	;
+			28800	;
+			3600	;
+			604800	;
+			38400	;
+			)
+
+		NS	ns1.c.oriath.io.
+
+ns1		A	10.0.10.1
+
+yeena		A	10.0.10.3
+
