@@ -11,4 +11,3 @@ $TTL 600
 		NS	ns2.c.oriath.io.
 
 $ORIGIN	10.0.10.in-addr.arpa.
-
