@@ -8,8 +8,11 @@ s.oriath.io.	IN 	SOA	ns1.s.oriath.io. root.oriath.io.(
 			)
 
 		NS	ns1.s.oriath.io.
+		NS	ns2.s.oriath.io.
 
 
-ns1		A	10.0.10.1
+ns1		IN	A	10.0.10.1
+ns2		IN	A	10.0.10.2
 
-tarkleigh	CNAME	ns1
+tarkleigh 	IN	CNAME	ns1
+maramoa		IN	CNAME	ns2
